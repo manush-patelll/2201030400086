@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="icon" href="logo.jpg" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #b7d7b7;
+      }
+      .container {
+        display: flex;
+        background-color: #e9e5dd;
+        height: 10vh;
+        width: 100vw;
+        border-radius: 10px;
+      }
+      .logo {
+        height: 10vh;
+        margin-left: 5vw;
+      }
+      .logo img {
+        height: 8vh;
+        margin-top: 10%;
+        margin-left: 10%;
+        border-radius: 5px;
+        mix-blend-mode: darken;
+      }
+
+      .nav-bar {
+        margin-left: auto;
+        margin-right: 4vw;
+        height: 10vh;
+        width: 60vw;
+      }
+      .items {
+        margin-left: auto;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 10vh;
+        width: 60vw;
+      }
+      .items li {
+        /* margin-top: 3.5vh;
+        margin-right: 8vw; */
+        font-size: 1.7vw;
+        font-weight: 900;
+        color: black;
+        text-decoration: none;
+        margin: 2vw;
+        position: static;
+      }
+      .items a {
+        text-decoration: none;
+      }
+      .items li:hover {
+        text-decoration: underline;
+      }
+      .items li:hover {
+        color: rgb(5, 85, 80);
+      }
+      .bodyy {
+        width: 100vw;
+        background-color: #b7d7b7;
+      }
+      .heading {
+        text-align: center;
+        font-size: 2vw;
+        font-weight: 800;
+        margin-top: 2vw;
+        color: #008000;
+      }
+      .contact {
+        display: flex;
+        margin-top: 4vw;
+      }
+      .contact-detail {
+        width: 45vw;
+        padding-left: 3vw;
+      }
+      .contact-detail .head {
+        text-align: center;
+        height: 6vw;
+        font-size: 3vw;
+        font-weight: 600;
+        margin-left: 3vw;
+      }
+      .contact-detail .email,
+      .contact-detail .phone {
+        width: 18vw;
+        height: 5vw;
+        background-color: #e9e5dd;
+        border-radius: 10px;
+        display: flex;
+        margin-bottom: 2vw;
+        margin-left: 15vw;
+        font-size: 1vw;
+      }
+      .contact-detail .email {
+        margin-top: 4vw;
+      }
+      .email img,
+      .phone img {
+        height: 3vw;
+        margin: 1vw;
+        mix-blend-mode: darken;
+      }
+      .e-heading,
+      .p-heading {
+        font-size: 1.3vw;
+        font-weight: 600;
+        margin-bottom: 1vw;
+      }
+      .form-button {
+        height: 25vw;
+        width: 35vw;
+        background-color: #e9e5dd;
+        margin-left: 5vw;
+        border-radius: 10px;
+      }
+      .form {
+        height: 15vw;
+        padding: 3vw 4vw 0vw 4vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        column-gap: 2vw;
+        row-gap: 2vw;
+      }
+      .form .massege {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 5;
+      }
+      .form input {
+        background-color: #b7d7b7;
+        border: none;
+        border-radius: 10px;
+        font-size: 1vw;
+        padding-left: 1vw;
+      }
+      .form .text {
+        width: 11vw;
+      }
+      .massege {
+        width: 25.5vw;
+      }
+      button {
+        height: 2vw;
+        width: 8vw;
+        border: none;
+        border-radius: 10px;
+        background-color: #008000;
+        color: white;
+        margin: 2vw auto auto 4vw;
+        font-size: 1vw;
+      }
+      .frame {
+        margin-left: 25vw;
+        margin-top: 5vw;
+        height: 25vw;
+        width: 50vw;
+      }
+      .images img {
+        width: 100vw;
+        margin-top: 4vw;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo"><img src="logo.jpg" alt="logo" /></div>
+      <div class="nav-bar">
+        <ul class="items">
+          <a href="section_8.html"><li>Forum</li></a>
+          <a href="section_5.html"><li>Seed Exchange</li></a>
+          <a href="section_4.html"><li>Tips & Tricks</li></a>
+          <a href="section_7.html"><li>Events</li></a>
+          <a href="section_4.html"><li>About Us</li></a>
+        </ul>
+      </div>
+    </div>
+    <div class="bodyy">
+      <p class="heading">CONTACT</p>
+      <div class="contact">
+        <div class="contact-detail">
+          <p class="head">Contact Us For More Info About Us!</p>
+
+          <div class="email">
+            <div><img src="mail-icon.jpg" alt="" /></div>
+            <div>
+              <p class="e-heading">Email Address:</p>
+              <p>jaydp1344@gmail.com/</p>
+              <p>hetp99919@gmail.com</p>
+            </div>
+          </div>
+          <div class="phone">
+            <div><img src="phone-icon.jpg" alt="" /></div>
+            <div>
+              <p class="p-heading">Phone Number:</p>
+              <p>Mobile No: +91 9909826044</p>
+              <p>/+91 9974099919</p>
+            </div>
+          </div>
+        </div>
+        <div class="form-button">
+          <div class="form">
+            <input type="text" class="text" placeholder="Name" />
+            <input type="email" class="text" placeholder="Email" />
+            <input type="text" class="text" placeholder="Subjects" />
+            <input type="number" class="text" placeholder="Phone No." />
+            <input type="text" class="massege" placeholder="Message" />
+          </div>
+          <button>GET A QUOTES</button>
+        </div>
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.1432901823237!2d72.74234909342763!3d23.56589896250063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395db5729788fa77%3A0xd18bf44ae205b7c2!2sS.B.%20Empire!5e0!3m2!1sen!2sin!4v1709359805502!5m2!1sen!2sin"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        class="frame"
+      ></iframe>
+
+      <div class="images"><img src="image 4.png" alt="" /></div>
+      <div class="images"><img src="image 5.png" alt="" /></div>
+    </div>
+  </body>
+</html>
